@@ -6,14 +6,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { Ionicons } from "@expo/vector-icons";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import FelixScreen1 from "./src/screens/FelixScreen1";
+import FelixScreen2 from "./src/screens/FelixScreen2";
 
-const FelixScreen2 = () =>{
-  return (
-    <View>
-      <Text>FelixScreen2</Text>
-    </View>
-  )
-}
 
 const NilsScreen1 = () =>{
   return (
@@ -69,4 +63,4 @@ const styles = StyleSheet.create({
   },
 });
 
-console.log("toto")
+
