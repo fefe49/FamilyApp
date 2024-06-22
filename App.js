@@ -68,3 +68,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+console.log("toto")
