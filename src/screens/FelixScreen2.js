@@ -6,8 +6,7 @@ const FelixScreen2 = () => {
     const navigation = useNavigation();
     return (
         <View>
-            <Text>Felix record 4x4 : 2:06.44 secondes</Text>
-            <TouchableOpacity onPress={() => {navigation.navigate("NilsScreen1")}}>
+            <TouchableOpacity onPress={() => { navigation.navigate("NilsScreen1") }}>
                 <Text>Pizza</Text>
             </TouchableOpacity>
         </View>
