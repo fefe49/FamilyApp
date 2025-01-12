@@ -1,11 +1,14 @@
 import React from "react";
-import { View, Text } from "react-native";
-import { Switch } from "react-native-gesture-handler";
+import { View, Text, TouchableOpacity } from "react-native";
+import { useNavigation } from "@react-navigation/core";
 
 const NilsScreen1 = () => {
+    const navigation = useNavigation();
     return (
         <View>
-            <Text>Pizza</Text>
+            <TouchableOpacity onPress={() => { navigation.navigate("NilsScreen2")}}>
+                <Text>To Do List</Text>
+            </TouchableOpacity>
         </View>
     )
 }
